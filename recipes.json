@@ -1,0 +1,616 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Roman pasta with eggs, pecorino, pancetta, and black pepper — no cream.",
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "estimatedMinutes": 25,
+    "servings": 2,
+    "tags": ["Dinner", "Comfort Food", "Date Night"],
+    "imageQuery": "spaghetti carbonara with pancetta egg yolk and pecorino romano",
+    "estimatedCostUSD": 9.0,
+    "ingredients": [
+      {"id": "i001a","name": "spaghetti","quantity": 200,"unit": "g","isOptional": false,"substitutions": ["rigatoni","bucatini"],"notes": null,"isDisabled": false},
+      {"id": "i001b","name": "pancetta","quantity": 100,"unit": "g","isOptional": false,"substitutions": ["guanciale","bacon"],"notes": null,"isDisabled": false},
+      {"id": "i001c","name": "large eggs","quantity": 2,"unit": "item","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i001d","name": "egg yolks","quantity": 2,"unit": "item","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i001e","name": "pecorino romano cheese","quantity": 60,"unit": "g","isOptional": false,"substitutions": ["parmesan cheese"],"notes": "finely grated","isDisabled": false},
+      {"id": "i001f","name": "black pepper","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": [],"notes": "freshly cracked","isDisabled": false},
+      {"id": "i001g","name": "kosher salt","quantity": 1,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": "for pasta water","isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s001a","stepNumber": 1,"instruction": "Bring a large pot of salted water to boil. Cook spaghetti until al dente, about 2 minutes less than package directions. Reserve 1 cup pasta water before draining.","timeMinutes": 10,"tip": "The pasta water is starchy — it's key to the sauce.","measurementAlternatives": [],"imageQuery": "boiling pasta in salted water"},
+      {"id": "s001b","stepNumber": 2,"instruction": "While pasta cooks, fry pancetta in a large skillet over medium heat until crispy, about 5 minutes. Remove pan from heat.","timeMinutes": 5,"tip": null,"measurementAlternatives": [],"imageQuery": "crispy pancetta in pan"},
+      {"id": "s001c","stepNumber": 3,"instruction": "Whisk together eggs, egg yolks, and grated pecorino in a bowl. Season generously with black pepper.","timeMinutes": 2,"tip": null,"measurementAlternatives": [],"imageQuery": "whisking egg and cheese mixture"},
+      {"id": "s001d","stepNumber": 4,"instruction": "Add hot drained pasta to the pancetta pan off the heat. Pour egg mixture over pasta and toss rapidly, adding pasta water a splash at a time until sauce is creamy and clings to the noodles.","timeMinutes": 3,"tip": "Work fast and keep the pan off heat — scrambled eggs ruin carbonara.","measurementAlternatives": [],"imageQuery": "tossing carbonara pasta off heat"},
+      {"id": "s001e","stepNumber": 5,"instruction": "Serve immediately, topped with extra pecorino and cracked black pepper.","timeMinutes": 1,"tip": null,"measurementAlternatives": [],"imageQuery": "plated spaghetti carbonara garnished with cheese"}
+    ],
+    "nutrition": {"caloriesPerServing": 620,"proteinGrams": 28.0,"carbsGrams": 72.0,"fatGrams": 24.0,"fiberGrams": 3.0,"vitamins": ["B12","B1"],"minerals": ["Selenium","Phosphorus"],"antioxidants": [],"isKeto": false,"isVegetarian": false,"isVegan": false,"isGlutenFree": false,"isKosher": false,"isDairyFree": false,"isAntiInflammatory": false,"healthScore": 6},
+    "missingIngredients": []
+  },
+  {
+    "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+    "name": "Sheet-Pan Chicken Thighs with Vegetables",
+    "description": "Crispy-skinned chicken thighs roasted over lemon, garlic, and seasonal vegetables — one pan, easy cleanup.",
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "estimatedMinutes": 45,
+    "servings": 4,
+    "tags": ["Dinner", "One-Pan", "Meal Prep", "Family Friendly", "Gluten-Free"],
+    "imageQuery": "sheet pan roasted chicken thighs with vegetables lemon garlic",
+    "estimatedCostUSD": 14.0,
+    "ingredients": [
+      {"id": "i002a","name": "bone-in skin-on chicken thighs","quantity": 4,"unit": "item","isOptional": false,"substitutions": ["chicken drumsticks"],"notes": null,"isDisabled": false},
+      {"id": "i002b","name": "baby potatoes","quantity": 300,"unit": "g","isOptional": false,"substitutions": ["sweet potatoes"],"notes": "halved","isDisabled": false},
+      {"id": "i002c","name": "broccoli florets","quantity": 200,"unit": "g","isOptional": false,"substitutions": ["green beans","zucchini"],"notes": null,"isDisabled": false},
+      {"id": "i002d","name": "extra-virgin olive oil","quantity": 3,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i002e","name": "garlic cloves","quantity": 4,"unit": "clove","isOptional": false,"substitutions": ["1 tsp garlic powder"],"notes": "smashed","isDisabled": false},
+      {"id": "i002f","name": "lemon","quantity": 1,"unit": "item","isOptional": false,"substitutions": [],"notes": "sliced into rounds","isDisabled": false},
+      {"id": "i002g","name": "dried oregano","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": ["Italian seasoning"],"notes": null,"isDisabled": false},
+      {"id": "i002h","name": "kosher salt","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i002i","name": "black pepper","quantity": 0.5,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s002a","stepNumber": 1,"instruction": "Preheat oven to 220°C (425°F). Toss potatoes with 1 tbsp olive oil, salt, and pepper directly on a rimmed baking sheet. Push to the edges.","timeMinutes": 5,"tip": null,"measurementAlternatives": [],"imageQuery": "potatoes on baking sheet with olive oil"},
+      {"id": "s002b","stepNumber": 2,"instruction": "Pat chicken thighs dry. Rub with remaining olive oil, garlic, oregano, salt, and pepper. Place skin-side up in the center of the pan over lemon slices.","timeMinutes": 5,"tip": "Dry skin = crispy skin. Don't skip patting dry.","measurementAlternatives": [],"imageQuery": "seasoned chicken thighs on sheet pan"},
+      {"id": "s002c","stepNumber": 3,"instruction": "Roast for 25 minutes. Add broccoli to the pan around the chicken, toss in any pan drippings. Roast another 15 minutes until chicken skin is golden and juices run clear.","timeMinutes": 40,"tip": null,"measurementAlternatives": [],"imageQuery": "roasting chicken thighs with vegetables in oven"},
+      {"id": "s002d","stepNumber": 4,"instruction": "Rest 5 minutes before serving. Squeeze roasted lemon rounds over everything.","timeMinutes": 5,"tip": null,"measurementAlternatives": [],"imageQuery": "plated sheet pan chicken with roasted vegetables"}
+    ],
+    "nutrition": {"caloriesPerServing": 480,"proteinGrams": 38.0,"carbsGrams": 22.0,"fatGrams": 26.0,"fiberGrams": 4.0,"vitamins": ["B6","C","K"],"minerals": ["Potassium","Iron"],"antioxidants": ["Sulforaphane"],"isKeto": false,"isVegetarian": false,"isVegan": false,"isGlutenFree": true,"isKosher": false,"isDairyFree": true,"isAntiInflammatory": true,"healthScore": 8},
+    "missingIngredients": []
+  },
+  {
+    "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+    "name": "Shakshuka",
+    "description": "Eggs poached in a spiced tomato and pepper sauce — a North African breakfast that works any time of day.",
+    "cuisine": "Middle Eastern",
+    "difficulty": "Easy",
+    "estimatedMinutes": 30,
+    "servings": 2,
+    "tags": ["Breakfast", "Vegetarian", "Gluten-Free", "One-Pan", "Spicy"],
+    "imageQuery": "shakshuka eggs poached in tomato sauce with feta and herbs",
+    "estimatedCostUSD": 7.0,
+    "ingredients": [
+      {"id": "i003a","name": "large eggs","quantity": 4,"unit": "item","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i003b","name": "canned crushed tomatoes","quantity": 400,"unit": "g","isOptional": false,"substitutions": ["fresh tomatoes"],"notes": null,"isDisabled": false},
+      {"id": "i003c","name": "red bell pepper","quantity": 1,"unit": "item","isOptional": false,"substitutions": [],"notes": "diced","isDisabled": false},
+      {"id": "i003d","name": "yellow onion","quantity": 0.5,"unit": "item","isOptional": false,"substitutions": [],"notes": "diced","isDisabled": false},
+      {"id": "i003e","name": "garlic cloves","quantity": 3,"unit": "clove","isOptional": false,"substitutions": [],"notes": "minced","isDisabled": false},
+      {"id": "i003f","name": "extra-virgin olive oil","quantity": 2,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i003g","name": "ground cumin","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i003h","name": "smoked paprika","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": ["sweet paprika"],"notes": null,"isDisabled": false},
+      {"id": "i003i","name": "cayenne pepper","quantity": 0.25,"unit": "tsp","isOptional": true,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i003j","name": "feta cheese","quantity": 60,"unit": "g","isOptional": true,"substitutions": ["goat cheese"],"notes": "crumbled","isDisabled": false},
+      {"id": "i003k","name": "fresh parsley","quantity": 1,"unit": "bunch","isOptional": true,"substitutions": ["fresh cilantro"],"notes": "chopped","isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s003a","stepNumber": 1,"instruction": "Heat olive oil in a large oven-safe skillet over medium heat. Sauté onion and pepper until softened, 5 minutes. Add garlic, cumin, paprika, and cayenne; cook 1 minute.","timeMinutes": 6,"tip": null,"measurementAlternatives": [],"imageQuery": "sauteing onion and peppers with spices"},
+      {"id": "s003b","stepNumber": 2,"instruction": "Pour in tomatoes, season with salt and pepper. Simmer over medium-low, stirring occasionally, until sauce thickens slightly, about 10 minutes.","timeMinutes": 10,"tip": null,"measurementAlternatives": [],"imageQuery": "tomato sauce simmering in skillet"},
+      {"id": "s003c","stepNumber": 3,"instruction": "Use a spoon to create 4 wells in the sauce. Crack an egg into each well. Cover the pan and cook until whites are set but yolks are still runny, 5–8 minutes.","timeMinutes": 7,"tip": "Watch carefully — overcooked yolks lose the magic.","measurementAlternatives": [],"imageQuery": "eggs poaching in tomato sauce with runny yolks"},
+      {"id": "s003d","stepNumber": 4,"instruction": "Top with crumbled feta and fresh parsley. Serve with crusty bread for dipping.","timeMinutes": 1,"tip": null,"measurementAlternatives": [],"imageQuery": "shakshuka topped with feta cheese and fresh herbs"}
+    ],
+    "nutrition": {"caloriesPerServing": 340,"proteinGrams": 18.0,"carbsGrams": 18.0,"fatGrams": 22.0,"fiberGrams": 5.0,"vitamins": ["A","C","B12"],"minerals": ["Iron","Calcium","Potassium"],"antioxidants": ["Lycopene","Capsaicin"],"isKeto": false,"isVegetarian": true,"isVegan": false,"isGlutenFree": true,"isKosher": false,"isDairyFree": false,"isAntiInflammatory": true,"healthScore": 8},
+    "missingIngredients": []
+  },
+  {
+    "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
+    "name": "Chicken Tikka Masala",
+    "description": "Tender charred chicken in a rich, creamy tomato-based curry — the dish that conquered the world.",
+    "cuisine": "Indian",
+    "difficulty": "Medium",
+    "estimatedMinutes": 50,
+    "servings": 4,
+    "tags": ["Dinner", "Comfort Food", "Spicy", "Meal Prep"],
+    "imageQuery": "chicken tikka masala in creamy tomato curry sauce with naan",
+    "estimatedCostUSD": 16.0,
+    "ingredients": [
+      {"id": "i004a","name": "boneless skinless chicken thighs","quantity": 700,"unit": "g","isOptional": false,"substitutions": ["chicken breast"],"notes": "cut into 2-inch pieces","isDisabled": false},
+      {"id": "i004b","name": "whole-milk plain yogurt","quantity": 120,"unit": "ml","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i004c","name": "garam masala","quantity": 2,"unit": "tsp","isOptional": false,"substitutions": [],"notes": "divided","isDisabled": false},
+      {"id": "i004d","name": "ground turmeric","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i004e","name": "yellow onion","quantity": 1,"unit": "item","isOptional": false,"substitutions": [],"notes": "finely diced","isDisabled": false},
+      {"id": "i004f","name": "garlic cloves","quantity": 4,"unit": "clove","isOptional": false,"substitutions": [],"notes": "minced","isDisabled": false},
+      {"id": "i004g","name": "fresh ginger","quantity": 1,"unit": "tbsp","isOptional": false,"substitutions": ["1/2 tsp ground ginger"],"notes": "grated","isDisabled": false},
+      {"id": "i004h","name": "canned crushed tomatoes","quantity": 400,"unit": "g","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i004i","name": "heavy cream","quantity": 120,"unit": "ml","isOptional": false,"substitutions": ["full-fat coconut milk"],"notes": null,"isDisabled": false},
+      {"id": "i004j","name": "unsalted butter","quantity": 2,"unit": "tbsp","isOptional": false,"substitutions": ["ghee"],"notes": null,"isDisabled": false},
+      {"id": "i004k","name": "ground cumin","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i004l","name": "cayenne pepper","quantity": 0.5,"unit": "tsp","isOptional": true,"substitutions": [],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s004a","stepNumber": 1,"instruction": "Combine chicken with yogurt, 1 tsp garam masala, turmeric, 1/2 tsp salt. Marinate at least 20 minutes (or overnight in fridge).","timeMinutes": 20,"tip": "Overnight marinating makes a big difference in tenderness.","measurementAlternatives": [],"imageQuery": "chicken marinating in yogurt and spices"},
+      {"id": "s004b","stepNumber": 2,"instruction": "Broil marinated chicken on a foil-lined baking sheet for 10–12 minutes until slightly charred. Set aside.","timeMinutes": 12,"tip": null,"measurementAlternatives": [],"imageQuery": "charred broiled chicken tikka pieces on baking sheet"},
+      {"id": "s004c","stepNumber": 3,"instruction": "Melt butter in a large skillet over medium heat. Cook onion until golden, 8 minutes. Add garlic, ginger, cumin, cayenne, and remaining garam masala; stir 1 minute.","timeMinutes": 9,"tip": null,"measurementAlternatives": [],"imageQuery": "golden onions with spices in pan"},
+      {"id": "s004d","stepNumber": 4,"instruction": "Add crushed tomatoes. Simmer 10 minutes, stirring occasionally. Stir in cream and simmer 5 more minutes.","timeMinutes": 15,"tip": null,"measurementAlternatives": [],"imageQuery": "masala sauce with cream simmering"},
+      {"id": "s004e","stepNumber": 5,"instruction": "Add broiled chicken to the sauce. Simmer 5 minutes. Serve over basmati rice with warm naan.","timeMinutes": 5,"tip": null,"measurementAlternatives": [],"imageQuery": "chicken tikka masala plated with rice and naan"}
+    ],
+    "nutrition": {"caloriesPerServing": 520,"proteinGrams": 42.0,"carbsGrams": 14.0,"fatGrams": 32.0,"fiberGrams": 3.0,"vitamins": ["B6","B12","A"],"minerals": ["Iron","Phosphorus","Zinc"],"antioxidants": ["Curcumin"],"isKeto": false,"isVegetarian": false,"isVegan": false,"isGlutenFree": true,"isKosher": false,"isDairyFree": false,"isAntiInflammatory": true,"healthScore": 7},
+    "missingIngredients": []
+  },
+  {
+    "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+    "name": "Classic Beef Tacos",
+    "description": "Crispy or soft tacos with seasoned ground beef, fresh pico de gallo, and all the fixings.",
+    "cuisine": "Mexican",
+    "difficulty": "Easy",
+    "estimatedMinutes": 25,
+    "servings": 4,
+    "tags": ["Dinner", "Family Friendly", "Quick"],
+    "imageQuery": "beef tacos with pico de gallo sour cream avocado in corn tortillas",
+    "estimatedCostUSD": 12.0,
+    "ingredients": [
+      {"id": "i005a","name": "ground beef (80/20)","quantity": 500,"unit": "g","isOptional": false,"substitutions": ["ground turkey","ground chicken"],"notes": null,"isDisabled": false},
+      {"id": "i005b","name": "corn tortillas","quantity": 8,"unit": "item","isOptional": false,"substitutions": ["flour tortillas"],"notes": null,"isDisabled": false},
+      {"id": "i005c","name": "chili powder","quantity": 1.5,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i005d","name": "ground cumin","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i005e","name": "garlic powder","quantity": 0.5,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i005f","name": "smoked paprika","quantity": 0.5,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i005g","name": "roma tomatoes","quantity": 2,"unit": "item","isOptional": false,"substitutions": [],"notes": "diced","isDisabled": false},
+      {"id": "i005h","name": "white onion","quantity": 0.25,"unit": "item","isOptional": false,"substitutions": [],"notes": "finely diced","isDisabled": false},
+      {"id": "i005i","name": "fresh cilantro","quantity": 0.5,"unit": "bunch","isOptional": true,"substitutions": [],"notes": "chopped","isDisabled": false},
+      {"id": "i005j","name": "lime","quantity": 1,"unit": "item","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i005k","name": "shredded cheddar cheese","quantity": 100,"unit": "g","isOptional": true,"substitutions": ["cotija cheese","Monterey Jack"],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s005a","stepNumber": 1,"instruction": "Combine tomatoes, onion, cilantro, lime juice, and salt in a bowl. Set pico de gallo aside.","timeMinutes": 5,"tip": null,"measurementAlternatives": [],"imageQuery": "fresh pico de gallo in bowl"},
+      {"id": "s005b","stepNumber": 2,"instruction": "Brown ground beef in a skillet over medium-high heat, breaking it up, until cooked through, about 7 minutes. Drain excess fat.","timeMinutes": 7,"tip": null,"measurementAlternatives": [],"imageQuery": "browning ground beef in skillet"},
+      {"id": "s005c","stepNumber": 3,"instruction": "Add chili powder, cumin, garlic powder, paprika, 1/4 cup water, and 1/2 tsp salt. Stir and cook 2 minutes until fragrant and slightly saucy.","timeMinutes": 2,"tip": null,"measurementAlternatives": [],"imageQuery": "seasoned taco meat in pan with spices"},
+      {"id": "s005d","stepNumber": 4,"instruction": "Warm tortillas directly over a gas flame or in a dry skillet, 20 seconds per side. Assemble tacos with beef, pico, cheese, and any desired toppings.","timeMinutes": 3,"tip": null,"measurementAlternatives": [],"imageQuery": "assembled beef tacos on board with toppings"}
+    ],
+    "nutrition": {"caloriesPerServing": 440,"proteinGrams": 28.0,"carbsGrams": 28.0,"fatGrams": 24.0,"fiberGrams": 4.0,"vitamins": ["B12","C","B6"],"minerals": ["Iron","Zinc"],"antioxidants": [],"isKeto": false,"isVegetarian": false,"isVegan": false,"isGlutenFree": true,"isKosher": false,"isDairyFree": false,"isAntiInflammatory": false,"healthScore": 6},
+    "missingIngredients": []
+  },
+  {
+    "id": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c",
+    "name": "Avocado Toast with Poached Egg",
+    "description": "Creamy smashed avocado on sourdough with a jammy poached egg and chili flakes — a modern classic.",
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "estimatedMinutes": 15,
+    "servings": 2,
+    "tags": ["Breakfast", "Vegetarian", "Quick", "Healthy"],
+    "imageQuery": "avocado toast with poached egg on sourdough red pepper flakes",
+    "estimatedCostUSD": 6.0,
+    "ingredients": [
+      {"id": "i006a","name": "ripe avocados","quantity": 2,"unit": "item","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i006b","name": "sourdough bread","quantity": 2,"unit": "slice","isOptional": false,"substitutions": ["whole-grain bread","rye bread"],"notes": "thick-sliced","isDisabled": false},
+      {"id": "i006c","name": "large eggs","quantity": 2,"unit": "item","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i006d","name": "lemon","quantity": 0.5,"unit": "item","isOptional": false,"substitutions": ["lime"],"notes": "juiced","isDisabled": false},
+      {"id": "i006e","name": "white vinegar","quantity": 1,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": "for poaching","isDisabled": false},
+      {"id": "i006f","name": "red pepper flakes","quantity": 0.25,"unit": "tsp","isOptional": true,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i006g","name": "flaky sea salt","quantity": 0.5,"unit": "tsp","isOptional": false,"substitutions": ["kosher salt"],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s006a","stepNumber": 1,"instruction": "Toast bread slices until golden and crisp.","timeMinutes": 3,"tip": null,"measurementAlternatives": [],"imageQuery": "golden sourdough toast"},
+      {"id": "s006b","stepNumber": 2,"instruction": "Halve, pit, and scoop avocados into a bowl. Add lemon juice and a pinch of salt. Smash with a fork to your preferred texture — leave some chunks.","timeMinutes": 2,"tip": null,"measurementAlternatives": [],"imageQuery": "smashing avocado with fork in bowl"},
+      {"id": "s006c","stepNumber": 3,"instruction": "Bring 3 inches of water to a gentle simmer in a saucepan. Add vinegar. Create a gentle swirl with a spoon, crack egg into the center. Poach 3 minutes for a runny yolk. Remove with a slotted spoon.","timeMinutes": 4,"tip": "Fresh eggs hold together better during poaching.","measurementAlternatives": [],"imageQuery": "poaching egg in simmering water"},
+      {"id": "s006d","stepNumber": 4,"instruction": "Spread avocado on toast. Top with the poached egg, red pepper flakes, and sea salt.","timeMinutes": 1,"tip": null,"measurementAlternatives": [],"imageQuery": "avocado toast topped with perfect poached egg"}
+    ],
+    "nutrition": {"caloriesPerServing": 380,"proteinGrams": 14.0,"carbsGrams": 34.0,"fatGrams": 22.0,"fiberGrams": 9.0,"vitamins": ["K","E","B12","C"],"minerals": ["Potassium","Folate"],"antioxidants": ["Lutein"],"isKeto": false,"isVegetarian": true,"isVegan": false,"isGlutenFree": false,"isKosher": false,"isDairyFree": true,"isAntiInflammatory": true,"healthScore": 9},
+    "missingIngredients": []
+  },
+  {
+    "id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d",
+    "name": "Garlic Butter Salmon with Asparagus",
+    "description": "Pan-seared salmon fillets finished in a lemon-garlic butter sauce with crisp-tender asparagus.",
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "estimatedMinutes": 20,
+    "servings": 2,
+    "tags": ["Dinner", "Healthy", "Quick", "Gluten-Free", "Dairy-Free"],
+    "imageQuery": "pan-seared salmon with garlic butter asparagus lemon",
+    "estimatedCostUSD": 18.0,
+    "ingredients": [
+      {"id": "i007a","name": "salmon fillets","quantity": 2,"unit": "item","isOptional": false,"substitutions": ["trout","halibut"],"notes": "skin-on, 6 oz each","isDisabled": false},
+      {"id": "i007b","name": "asparagus","quantity": 200,"unit": "g","isOptional": false,"substitutions": ["green beans","broccolini"],"notes": "trimmed","isDisabled": false},
+      {"id": "i007c","name": "unsalted butter","quantity": 3,"unit": "tbsp","isOptional": false,"substitutions": ["ghee","olive oil"],"notes": null,"isDisabled": false},
+      {"id": "i007d","name": "garlic cloves","quantity": 3,"unit": "clove","isOptional": false,"substitutions": [],"notes": "minced","isDisabled": false},
+      {"id": "i007e","name": "lemon","quantity": 1,"unit": "item","isOptional": false,"substitutions": [],"notes": "juiced and zested","isDisabled": false},
+      {"id": "i007f","name": "fresh dill","quantity": 2,"unit": "tbsp","isOptional": true,"substitutions": ["fresh parsley"],"notes": "chopped","isDisabled": false},
+      {"id": "i007g","name": "kosher salt","quantity": 0.75,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s007a","stepNumber": 1,"instruction": "Pat salmon dry and season flesh side with salt and pepper. Heat 1 tbsp butter in a large skillet over medium-high until foam subsides.","timeMinutes": 2,"tip": null,"measurementAlternatives": [],"imageQuery": "salmon fillet being seasoned"},
+      {"id": "s007b","stepNumber": 2,"instruction": "Place salmon skin-side up. Cook without moving 3–4 minutes. Flip; cook 2 more minutes. Transfer to a plate.","timeMinutes": 6,"tip": "Don't move the salmon — it will release naturally when a good crust forms.","measurementAlternatives": [],"imageQuery": "salmon searing in pan with golden crust"},
+      {"id": "s007c","stepNumber": 3,"instruction": "In the same pan, sauté asparagus 3 minutes. Push to the side, add remaining butter, garlic, and lemon zest. Cook 30 seconds then add lemon juice.","timeMinutes": 4,"tip": null,"measurementAlternatives": [],"imageQuery": "asparagus sauteed in garlic butter"},
+      {"id": "s007d","stepNumber": 4,"instruction": "Return salmon to pan, spoon butter sauce over it. Garnish with dill and serve immediately.","timeMinutes": 1,"tip": null,"measurementAlternatives": [],"imageQuery": "salmon and asparagus with garlic butter sauce"}
+    ],
+    "nutrition": {"caloriesPerServing": 450,"proteinGrams": 40.0,"carbsGrams": 8.0,"fatGrams": 28.0,"fiberGrams": 3.0,"vitamins": ["D","B12","K"],"minerals": ["Omega-3","Selenium","Potassium"],"antioxidants": [],"isKeto": true,"isVegetarian": false,"isVegan": false,"isGlutenFree": true,"isKosher": false,"isDairyFree": false,"isAntiInflammatory": true,"healthScore": 9},
+    "missingIngredients": []
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e",
+    "name": "Mushroom Risotto",
+    "description": "Creamy arborio rice slowly coaxed with white wine and stock, finished with parmesan and wild mushrooms.",
+    "cuisine": "Italian",
+    "difficulty": "Medium",
+    "estimatedMinutes": 40,
+    "servings": 3,
+    "tags": ["Dinner", "Vegetarian", "Comfort Food", "Date Night"],
+    "imageQuery": "creamy mushroom risotto with parmesan and fresh thyme in bowl",
+    "estimatedCostUSD": 13.0,
+    "ingredients": [
+      {"id": "i008a","name": "arborio rice","quantity": 250,"unit": "g","isOptional": false,"substitutions": ["carnaroli rice"],"notes": null,"isDisabled": false},
+      {"id": "i008b","name": "mixed mushrooms","quantity": 300,"unit": "g","isOptional": false,"substitutions": ["cremini mushrooms","shiitake"],"notes": "sliced","isDisabled": false},
+      {"id": "i008c","name": "vegetable broth","quantity": 1,"unit": "liter","isOptional": false,"substitutions": ["chicken broth"],"notes": "kept warm","isDisabled": false},
+      {"id": "i008d","name": "dry white wine","quantity": 120,"unit": "ml","isOptional": false,"substitutions": ["extra broth"],"notes": null,"isDisabled": false},
+      {"id": "i008e","name": "yellow onion","quantity": 0.5,"unit": "item","isOptional": false,"substitutions": ["shallots"],"notes": "finely diced","isDisabled": false},
+      {"id": "i008f","name": "garlic cloves","quantity": 2,"unit": "clove","isOptional": false,"substitutions": [],"notes": "minced","isDisabled": false},
+      {"id": "i008g","name": "parmesan cheese","quantity": 60,"unit": "g","isOptional": false,"substitutions": ["pecorino romano"],"notes": "finely grated","isDisabled": false},
+      {"id": "i008h","name": "unsalted butter","quantity": 3,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": "divided","isDisabled": false},
+      {"id": "i008i","name": "extra-virgin olive oil","quantity": 2,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i008j","name": "fresh thyme","quantity": 3,"unit": "item","isOptional": true,"substitutions": [],"notes": "sprigs","isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s008a","stepNumber": 1,"instruction": "Warm broth in a saucepan over low heat. In a separate wide pan, heat olive oil and 1 tbsp butter. Sauté mushrooms over high heat until browned, 5 minutes. Season and remove to a plate.","timeMinutes": 7,"tip": "Cook mushrooms on high heat without crowding — they need to brown, not steam.","measurementAlternatives": [],"imageQuery": "browning mushrooms in skillet"},
+      {"id": "s008b","stepNumber": 2,"instruction": "Reduce heat to medium. Cook onion and garlic in the same pan until translucent, 4 minutes. Add rice; stir 2 minutes until edges are translucent.","timeMinutes": 6,"tip": null,"measurementAlternatives": [],"imageQuery": "toasting arborio rice with onion"},
+      {"id": "s008c","stepNumber": 3,"instruction": "Add wine; stir until absorbed. Add warm broth one ladle at a time, stirring constantly and waiting until each addition is absorbed before adding the next. Continue 18–20 minutes until rice is al dente.","timeMinutes": 20,"tip": "Constant stirring releases the starch that makes risotto creamy.","measurementAlternatives": [],"imageQuery": "adding broth ladle by ladle to risotto"},
+      {"id": "s008d","stepNumber": 4,"instruction": "Remove from heat. Stir in remaining butter, parmesan, and mushrooms. Season. Let rest 2 minutes before serving.","timeMinutes": 3,"tip": null,"measurementAlternatives": [],"imageQuery": "finished creamy mushroom risotto in pan with parmesan"}
+    ],
+    "nutrition": {"caloriesPerServing": 490,"proteinGrams": 14.0,"carbsGrams": 68.0,"fatGrams": 18.0,"fiberGrams": 3.0,"vitamins": ["B2","D","B12"],"minerals": ["Selenium","Phosphorus","Zinc"],"antioxidants": ["Ergothioneine"],"isKeto": false,"isVegetarian": true,"isVegan": false,"isGlutenFree": true,"isKosher": false,"isDairyFree": false,"isAntiInflammatory": false,"healthScore": 7},
+    "missingIngredients": []
+  },
+  {
+    "id": "c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f",
+    "name": "Thai Basil Fried Rice",
+    "description": "Fragrant jasmine rice stir-fried with Thai basil, garlic, fish sauce, and a crispy fried egg on top.",
+    "cuisine": "Thai",
+    "difficulty": "Easy",
+    "estimatedMinutes": 20,
+    "servings": 2,
+    "tags": ["Dinner", "Quick", "Spicy", "Gluten-Free", "Dairy-Free"],
+    "imageQuery": "Thai basil fried rice with crispy egg fish sauce and chilies",
+    "estimatedCostUSD": 8.0,
+    "ingredients": [
+      {"id": "i009a","name": "cooked jasmine rice","quantity": 2,"unit": "cup","isOptional": false,"substitutions": [],"notes": "day-old is best","isDisabled": false},
+      {"id": "i009b","name": "boneless chicken thighs","quantity": 200,"unit": "g","isOptional": false,"substitutions": ["shrimp","tofu","pork"],"notes": "chopped small","isDisabled": false},
+      {"id": "i009c","name": "fresh Thai basil leaves","quantity": 1,"unit": "cup","isOptional": false,"substitutions": ["Italian basil"],"notes": "loosely packed","isDisabled": false},
+      {"id": "i009d","name": "large eggs","quantity": 2,"unit": "item","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i009e","name": "garlic cloves","quantity": 4,"unit": "clove","isOptional": false,"substitutions": [],"notes": "minced","isDisabled": false},
+      {"id": "i009f","name": "Thai red chilies","quantity": 2,"unit": "item","isOptional": true,"substitutions": ["serrano peppers"],"notes": "sliced","isDisabled": false},
+      {"id": "i009g","name": "fish sauce","quantity": 2,"unit": "tbsp","isOptional": false,"substitutions": ["soy sauce","tamari"],"notes": null,"isDisabled": false},
+      {"id": "i009h","name": "oyster sauce","quantity": 1,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i009i","name": "neutral oil","quantity": 3,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": "divided","isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s009a","stepNumber": 1,"instruction": "Heat 2 tbsp oil in a wok or large skillet over very high heat until smoking. Add garlic and chilies, stir 15 seconds.","timeMinutes": 1,"tip": "High heat is essential — a wok works best.","measurementAlternatives": [],"imageQuery": "garlic and chilies sizzling in wok"},
+      {"id": "s009b","stepNumber": 2,"instruction": "Add chicken; stir-fry until cooked through, about 3 minutes.","timeMinutes": 3,"tip": null,"measurementAlternatives": [],"imageQuery": "chicken stir-frying in wok"},
+      {"id": "s009c","stepNumber": 3,"instruction": "Add rice, breaking up clumps. Stir-fry 3 minutes until grains are separated and lightly toasted. Add fish sauce and oyster sauce; toss to combine.","timeMinutes": 4,"tip": null,"measurementAlternatives": [],"imageQuery": "fried rice tossing in wok with sauces"},
+      {"id": "s009d","stepNumber": 4,"instruction": "Remove from heat, fold in Thai basil leaves. In a separate pan with remaining oil, fry eggs until whites are set with crispy edges. Serve rice topped with fried egg.","timeMinutes": 3,"tip": null,"measurementAlternatives": [],"imageQuery": "Thai basil fried rice with crispy fried egg on top"}
+    ],
+    "nutrition": {"caloriesPerServing": 520,"proteinGrams": 30.0,"carbsGrams": 58.0,"fatGrams": 18.0,"fiberGrams": 2.0,"vitamins": ["B1","B12","K"],"minerals": ["Iron","Selenium"],"antioxidants": [],"isKeto": false,"isVegetarian": false,"isVegan": false,"isGlutenFree": true,"isKosher": false,"isDairyFree": true,"isAntiInflammatory": false,"healthScore": 6},
+    "missingIngredients": []
+  },
+  {
+    "id": "d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a",
+    "name": "Greek Salad (Horiatiki)",
+    "description": "Authentic village salad with no lettuce — just chunky vegetables, kalamata olives, and a slab of feta.",
+    "cuisine": "Greek",
+    "difficulty": "Easy",
+    "estimatedMinutes": 10,
+    "servings": 2,
+    "tags": ["Lunch", "Vegetarian", "Vegan", "Gluten-Free", "Dairy-Free", "No-Cook", "Healthy", "Summer"],
+    "imageQuery": "Greek horiatiki salad with feta block tomatoes cucumber olives",
+    "estimatedCostUSD": 8.0,
+    "ingredients": [
+      {"id": "i010a","name": "ripe tomatoes","quantity": 3,"unit": "item","isOptional": false,"substitutions": [],"notes": "cut into wedges","isDisabled": false},
+      {"id": "i010b","name": "English cucumber","quantity": 0.5,"unit": "item","isOptional": false,"substitutions": [],"notes": "cut into half-moons","isDisabled": false},
+      {"id": "i010c","name": "red onion","quantity": 0.25,"unit": "item","isOptional": false,"substitutions": [],"notes": "thinly sliced","isDisabled": false},
+      {"id": "i010d","name": "kalamata olives","quantity": 60,"unit": "g","isOptional": false,"substitutions": ["black olives"],"notes": "pitted","isDisabled": false},
+      {"id": "i010e","name": "green bell pepper","quantity": 0.5,"unit": "item","isOptional": false,"substitutions": [],"notes": "sliced","isDisabled": false},
+      {"id": "i010f","name": "block feta cheese","quantity": 100,"unit": "g","isOptional": false,"substitutions": [],"notes": "left whole or in large chunks","isDisabled": false},
+      {"id": "i010g","name": "extra-virgin olive oil","quantity": 3,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": "good quality","isDisabled": false},
+      {"id": "i010h","name": "dried oregano","quantity": 0.5,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i010i","name": "red wine vinegar","quantity": 1,"unit": "tbsp","isOptional": true,"substitutions": [],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s010a","stepNumber": 1,"instruction": "Arrange tomatoes, cucumber, onion, pepper, and olives in a wide bowl or on a plate.","timeMinutes": 5,"tip": null,"measurementAlternatives": [],"imageQuery": "arranging Greek salad vegetables in bowl"},
+      {"id": "s010b","stepNumber": 2,"instruction": "Place the feta block on top. Drizzle with olive oil and vinegar. Sprinkle with oregano and a pinch of salt.","timeMinutes": 2,"tip": "Salt the tomatoes lightly; they'll release juices that become part of the dressing.","measurementAlternatives": [],"imageQuery": "Greek salad with whole feta block and olive oil drizzle"},
+      {"id": "s010c","stepNumber": 3,"instruction": "Do not toss — serve as-is and let diners mix themselves, or break up the feta and gently combine just before eating.","timeMinutes": 1,"tip": null,"measurementAlternatives": [],"imageQuery": "authentic Greek horiatiki salad ready to serve"}
+    ],
+    "nutrition": {"caloriesPerServing": 290,"proteinGrams": 8.0,"carbsGrams": 14.0,"fatGrams": 24.0,"fiberGrams": 4.0,"vitamins": ["C","A","K"],"minerals": ["Calcium","Potassium"],"antioxidants": ["Lycopene","Quercetin"],"isKeto": true,"isVegetarian": true,"isVegan": false,"isGlutenFree": true,"isKosher": false,"isDairyFree": false,"isAntiInflammatory": true,"healthScore": 9},
+    "missingIngredients": []
+  },
+  {
+    "id": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b",
+    "name": "Miso Ramen",
+    "description": "Rich miso-based broth with ramen noodles, soft-boiled egg, corn, and butter — warming and deeply savory.",
+    "cuisine": "Japanese",
+    "difficulty": "Medium",
+    "estimatedMinutes": 40,
+    "servings": 2,
+    "tags": ["Dinner", "Comfort Food", "Winter"],
+    "imageQuery": "miso ramen bowl with soft boiled egg corn nori butter",
+    "estimatedCostUSD": 14.0,
+    "ingredients": [
+      {"id": "i011a","name": "dried ramen noodles","quantity": 200,"unit": "g","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i011b","name": "white miso paste","quantity": 3,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i011c","name": "chicken broth","quantity": 750,"unit": "ml","isOptional": false,"substitutions": ["dashi broth","vegetable broth"],"notes": null,"isDisabled": false},
+      {"id": "i011d","name": "large eggs","quantity": 2,"unit": "item","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i011e","name": "canned corn","quantity": 100,"unit": "g","isOptional": false,"substitutions": [],"notes": "drained","isDisabled": false},
+      {"id": "i011f","name": "unsalted butter","quantity": 1,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i011g","name": "green onions","quantity": 2,"unit": "item","isOptional": false,"substitutions": [],"notes": "sliced","isDisabled": false},
+      {"id": "i011h","name": "sesame oil","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i011i","name": "soy sauce","quantity": 1,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i011j","name": "garlic cloves","quantity": 2,"unit": "clove","isOptional": false,"substitutions": [],"notes": "minced","isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s011a","stepNumber": 1,"instruction": "Soft-boil eggs: lower into boiling water, cook exactly 6.5 minutes, transfer to ice water 5 minutes, then peel. Halve when ready to serve.","timeMinutes": 12,"tip": "6.5 minutes gives a jammy, custardy yolk.","measurementAlternatives": [],"imageQuery": "halved soft-boiled ramen egg with jammy yolk"},
+      {"id": "s011b","stepNumber": 2,"instruction": "Warm broth with garlic and soy sauce over medium heat. Whisk in miso paste (don't boil after adding miso). Add sesame oil.","timeMinutes": 8,"tip": "Boiling destroys the probiotic benefit of miso.","measurementAlternatives": [],"imageQuery": "miso broth in pot with garlic"},
+      {"id": "s011c","stepNumber": 3,"instruction": "Cook noodles per package directions. Drain and divide between two bowls.","timeMinutes": 5,"tip": null,"measurementAlternatives": [],"imageQuery": "cooking ramen noodles"},
+      {"id": "s011d","stepNumber": 4,"instruction": "Ladle hot broth over noodles. Top with egg halves, corn, a pat of butter, and green onions. The butter will melt into the broth — stir to combine.","timeMinutes": 2,"tip": null,"measurementAlternatives": [],"imageQuery": "assembled miso ramen bowl with toppings"}
+    ],
+    "nutrition": {"caloriesPerServing": 540,"proteinGrams": 22.0,"carbsGrams": 72.0,"fatGrams": 18.0,"fiberGrams": 4.0,"vitamins": ["B12","B2","K"],"minerals": ["Sodium","Phosphorus","Manganese"],"antioxidants": ["Isoflavones"],"isKeto": false,"isVegetarian": false,"isVegan": false,"isGlutenFree": false,"isKosher": false,"isDairyFree": false,"isAntiInflammatory": false,"healthScore": 7},
+    "missingIngredients": []
+  },
+  {
+    "id": "f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c",
+    "name": "Black Bean Tacos with Mango Salsa",
+    "description": "Crispy spiced black beans in warm tortillas topped with fresh mango salsa and avocado crema.",
+    "cuisine": "Mexican",
+    "difficulty": "Easy",
+    "estimatedMinutes": 20,
+    "servings": 3,
+    "tags": ["Dinner", "Vegan", "Vegetarian", "Quick", "Healthy", "Budget-Friendly"],
+    "imageQuery": "black bean tacos with mango salsa avocado crema corn tortillas",
+    "estimatedCostUSD": 7.0,
+    "ingredients": [
+      {"id": "i012a","name": "canned black beans","quantity": 400,"unit": "g","isOptional": false,"substitutions": ["pinto beans"],"notes": "drained and rinsed","isDisabled": false},
+      {"id": "i012b","name": "corn tortillas","quantity": 6,"unit": "item","isOptional": false,"substitutions": ["flour tortillas"],"notes": null,"isDisabled": false},
+      {"id": "i012c","name": "ripe mango","quantity": 1,"unit": "item","isOptional": false,"substitutions": ["pineapple"],"notes": "diced","isDisabled": false},
+      {"id": "i012d","name": "red onion","quantity": 0.25,"unit": "item","isOptional": false,"substitutions": [],"notes": "finely diced","isDisabled": false},
+      {"id": "i012e","name": "fresh cilantro","quantity": 0.25,"unit": "bunch","isOptional": true,"substitutions": [],"notes": "chopped","isDisabled": false},
+      {"id": "i012f","name": "jalapeño","quantity": 1,"unit": "item","isOptional": true,"substitutions": [],"notes": "minced","isDisabled": false},
+      {"id": "i012g","name": "ripe avocado","quantity": 1,"unit": "item","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i012h","name": "lime","quantity": 2,"unit": "item","isOptional": false,"substitutions": [],"notes": "juiced","isDisabled": false},
+      {"id": "i012i","name": "chili powder","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i012j","name": "cumin","quantity": 0.5,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s012a","stepNumber": 1,"instruction": "Make mango salsa: combine mango, red onion, jalapeño, cilantro, and juice of 1 lime. Season with salt. Set aside.","timeMinutes": 5,"tip": null,"measurementAlternatives": [],"imageQuery": "fresh mango salsa in bowl"},
+      {"id": "s012b","stepNumber": 2,"instruction": "Make avocado crema: mash avocado with juice of 1 lime, salt, and 2 tbsp water until smooth and drizzleable.","timeMinutes": 3,"tip": null,"measurementAlternatives": [],"imageQuery": "smooth avocado crema in bowl"},
+      {"id": "s012c","stepNumber": 3,"instruction": "In a skillet over medium-high heat, cook beans with chili powder, cumin, and a pinch of salt until heated through and slightly crispy on the outside, about 4 minutes.","timeMinutes": 4,"tip": null,"measurementAlternatives": [],"imageQuery": "spiced black beans sizzling in skillet"},
+      {"id": "s012d","stepNumber": 4,"instruction": "Warm tortillas. Fill with beans, top with mango salsa and a drizzle of avocado crema.","timeMinutes": 2,"tip": null,"measurementAlternatives": [],"imageQuery": "assembled black bean tacos with mango salsa"}
+    ],
+    "nutrition": {"caloriesPerServing": 380,"proteinGrams": 14.0,"carbsGrams": 62.0,"fatGrams": 10.0,"fiberGrams": 14.0,"vitamins": ["C","K","B9"],"minerals": ["Iron","Magnesium","Potassium"],"antioxidants": ["Anthocyanins"],"isKeto": false,"isVegetarian": true,"isVegan": true,"isGlutenFree": true,"isKosher": false,"isDairyFree": true,"isAntiInflammatory": true,"healthScore": 10},
+    "missingIngredients": []
+  },
+  {
+    "id": "a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d",
+    "name": "French Omelette",
+    "description": "A silky, pale, almost custard-like omelette — the French technique turns humble eggs into something elegant.",
+    "cuisine": "French",
+    "difficulty": "Medium",
+    "estimatedMinutes": 10,
+    "servings": 1,
+    "tags": ["Breakfast", "Vegetarian", "Quick", "Gluten-Free"],
+    "imageQuery": "classic French omelette rolled pale yellow with chives butter",
+    "estimatedCostUSD": 3.0,
+    "ingredients": [
+      {"id": "i013a","name": "large eggs","quantity": 3,"unit": "item","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i013b","name": "unsalted butter","quantity": 1.5,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i013c","name": "fresh chives","quantity": 1,"unit": "tbsp","isOptional": true,"substitutions": ["fresh tarragon","fresh parsley"],"notes": "finely chopped","isDisabled": false},
+      {"id": "i013d","name": "gruyère cheese","quantity": 20,"unit": "g","isOptional": true,"substitutions": ["comté","emmental"],"notes": "grated","isDisabled": false},
+      {"id": "i013e","name": "kosher salt","quantity": 0.25,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s013a","stepNumber": 1,"instruction": "Beat eggs with salt vigorously with a fork — really work out any stringiness — until fully homogenous.","timeMinutes": 1,"tip": null,"measurementAlternatives": [],"imageQuery": "whisking eggs vigorously with fork"},
+      {"id": "s013b","stepNumber": 2,"instruction": "Heat a small nonstick skillet over medium-high. Add butter; when it foams and foam subsides (not brown), add eggs.","timeMinutes": 1,"tip": "Temperature control is everything — medium-high, not high.","measurementAlternatives": [],"imageQuery": "butter foaming in nonstick pan"},
+      {"id": "s013c","stepNumber": 3,"instruction": "Immediately use a rubber spatula to stir constantly in small fast circles while shaking the pan. When eggs are just set into soft curds, stop stirring. Let bottom set 10 seconds.","timeMinutes": 2,"tip": "The eggs should have no color — pull off heat if it's browning.","measurementAlternatives": [],"imageQuery": "stirring egg omelette in pan with spatula"},
+      {"id": "s013d","stepNumber": 4,"instruction": "Sprinkle cheese down the center. Tilt pan and roll the omelette out onto a plate by folding it over itself. It should be pale yellow and torpedo-shaped. Garnish with chives.","timeMinutes": 1,"tip": null,"measurementAlternatives": [],"imageQuery": "rolling French omelette onto plate pale and perfect"}
+    ],
+    "nutrition": {"caloriesPerServing": 350,"proteinGrams": 20.0,"carbsGrams": 2.0,"fatGrams": 29.0,"fiberGrams": 0.0,"vitamins": ["B12","D","A","B2"],"minerals": ["Selenium","Choline"],"antioxidants": [],"isKeto": true,"isVegetarian": true,"isVegan": false,"isGlutenFree": true,"isKosher": false,"isDairyFree": false,"isAntiInflammatory": false,"healthScore": 7},
+    "missingIngredients": []
+  },
+  {
+    "id": "b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e",
+    "name": "Overnight Oats",
+    "description": "No-cook oats soaked overnight in milk with chia seeds and vanilla — endlessly customizable.",
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "estimatedMinutes": 5,
+    "servings": 2,
+    "tags": ["Breakfast", "Vegetarian", "Meal Prep", "Healthy", "No-Cook", "Budget-Friendly"],
+    "imageQuery": "overnight oats jar with berries chia seeds honey breakfast",
+    "estimatedCostUSD": 3.0,
+    "ingredients": [
+      {"id": "i014a","name": "rolled oats","quantity": 1,"unit": "cup","isOptional": false,"substitutions": [],"notes": "old-fashioned, not instant","isDisabled": false},
+      {"id": "i014b","name": "whole milk","quantity": 1,"unit": "cup","isOptional": false,"substitutions": ["oat milk","almond milk","coconut milk"],"notes": null,"isDisabled": false},
+      {"id": "i014c","name": "chia seeds","quantity": 1,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i014d","name": "honey","quantity": 1,"unit": "tbsp","isOptional": false,"substitutions": ["maple syrup","agave"],"notes": null,"isDisabled": false},
+      {"id": "i014e","name": "vanilla extract","quantity": 0.5,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i014f","name": "fresh berries","quantity": 0.5,"unit": "cup","isOptional": true,"substitutions": ["sliced banana","mango"],"notes": null,"isDisabled": false},
+      {"id": "i014g","name": "whole-milk plain yogurt","quantity": 0.5,"unit": "cup","isOptional": true,"substitutions": [],"notes": "for extra creaminess","isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s014a","stepNumber": 1,"instruction": "Combine oats, milk, chia seeds, honey, and vanilla in a jar or container with a lid. Stir well.","timeMinutes": 3,"tip": null,"measurementAlternatives": [],"imageQuery": "mixing overnight oats ingredients in mason jar"},
+      {"id": "s014b","stepNumber": 2,"instruction": "Stir in yogurt if using. Seal and refrigerate at least 4 hours or overnight.","timeMinutes": 1,"tip": "The longer they soak, the creamier they get.","measurementAlternatives": [],"imageQuery": "overnight oats sealed in mason jar"},
+      {"id": "s014c","stepNumber": 3,"instruction": "In the morning, stir to loosen. Top with fresh berries and an extra drizzle of honey. Eat cold or microwave 90 seconds.","timeMinutes": 1,"tip": null,"measurementAlternatives": [],"imageQuery": "overnight oats with fresh berries and honey topping"}
+    ],
+    "nutrition": {"caloriesPerServing": 340,"proteinGrams": 12.0,"carbsGrams": 52.0,"fatGrams": 8.0,"fiberGrams": 7.0,"vitamins": ["B1","B2","D","C"],"minerals": ["Calcium","Iron","Magnesium"],"antioxidants": ["Anthocyanins"],"isKeto": false,"isVegetarian": true,"isVegan": false,"isGlutenFree": false,"isKosher": false,"isDairyFree": false,"isAntiInflammatory": true,"healthScore": 9},
+    "missingIngredients": []
+  },
+  {
+    "id": "c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f",
+    "name": "Lemon Herb Roasted Lamb Chops",
+    "description": "Tender rack of lamb chops marinated in garlic, rosemary, and lemon, seared then finished in the oven.",
+    "cuisine": "Mediterranean",
+    "difficulty": "Hard",
+    "estimatedMinutes": 50,
+    "servings": 2,
+    "tags": ["Dinner", "Date Night", "Gluten-Free", "Keto"],
+    "imageQuery": "roasted lamb chops with rosemary garlic lemon crust on wooden board",
+    "estimatedCostUSD": 28.0,
+    "ingredients": [
+      {"id": "i015a","name": "lamb chops","quantity": 6,"unit": "item","isOptional": false,"substitutions": [],"notes": "frenched rack, cut into individual chops","isDisabled": false},
+      {"id": "i015b","name": "fresh rosemary","quantity": 2,"unit": "tbsp","isOptional": false,"substitutions": ["fresh thyme"],"notes": "finely minced","isDisabled": false},
+      {"id": "i015c","name": "garlic cloves","quantity": 4,"unit": "clove","isOptional": false,"substitutions": [],"notes": "minced","isDisabled": false},
+      {"id": "i015d","name": "lemon","quantity": 1,"unit": "item","isOptional": false,"substitutions": [],"notes": "zested and juiced","isDisabled": false},
+      {"id": "i015e","name": "extra-virgin olive oil","quantity": 3,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i015f","name": "Dijon mustard","quantity": 1,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i015g","name": "kosher salt","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s015a","stepNumber": 1,"instruction": "Combine rosemary, garlic, lemon zest, olive oil, Dijon, and salt into a paste. Coat lamb chops completely. Marinate at room temperature 30 minutes or refrigerate up to 4 hours.","timeMinutes": 30,"tip": "Bringing to room temp before cooking ensures even doneness.","measurementAlternatives": [],"imageQuery": "lamb chops marinating with herb crust"},
+      {"id": "s015b","stepNumber": 2,"instruction": "Preheat oven to 200°C (400°F). Heat an oven-safe skillet over high heat until very hot. Sear chops 2 minutes per side until deeply browned.","timeMinutes": 5,"tip": null,"measurementAlternatives": [],"imageQuery": "lamb chops searing in cast iron pan"},
+      {"id": "s015c","stepNumber": 3,"instruction": "Transfer pan to oven. Roast 5–7 minutes for medium-rare (internal temp 57°C/135°F). Rest on a board 5 minutes before serving.","timeMinutes": 12,"tip": "Lamb is best at medium-rare — don't overcook it.","measurementAlternatives": [],"imageQuery": "lamb chops resting on cutting board"},
+      {"id": "s015d","stepNumber": 4,"instruction": "Squeeze lemon juice over chops. Serve with roasted vegetables or a fresh salad.","timeMinutes": 1,"tip": null,"measurementAlternatives": [],"imageQuery": "plated lamb chops with herbs and lemon"}
+    ],
+    "nutrition": {"caloriesPerServing": 580,"proteinGrams": 46.0,"carbsGrams": 4.0,"fatGrams": 42.0,"fiberGrams": 1.0,"vitamins": ["B12","B3","B6","K"],"minerals": ["Zinc","Iron","Selenium"],"antioxidants": ["Rosmarinic acid"],"isKeto": true,"isVegetarian": false,"isVegan": false,"isGlutenFree": true,"isKosher": false,"isDairyFree": true,"isAntiInflammatory": true,"healthScore": 7},
+    "missingIngredients": []
+  },
+  {
+    "id": "d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a",
+    "name": "Pad See Ew",
+    "description": "Wide rice noodles stir-fried with egg, Chinese broccoli, and a sweet-savory soy sauce in a screaming-hot wok.",
+    "cuisine": "Thai",
+    "difficulty": "Medium",
+    "estimatedMinutes": 25,
+    "servings": 2,
+    "tags": ["Dinner", "Dairy-Free", "Quick"],
+    "imageQuery": "pad see ew wide rice noodles with egg Chinese broccoli charred wok",
+    "estimatedCostUSD": 10.0,
+    "ingredients": [
+      {"id": "i016a","name": "wide dried rice noodles","quantity": 200,"unit": "g","isOptional": false,"substitutions": [],"notes": "soaked in warm water 30 min","isDisabled": false},
+      {"id": "i016b","name": "boneless chicken breast","quantity": 200,"unit": "g","isOptional": false,"substitutions": ["shrimp","tofu","beef"],"notes": "thinly sliced","isDisabled": false},
+      {"id": "i016c","name": "Chinese broccoli (gai lan)","quantity": 150,"unit": "g","isOptional": false,"substitutions": ["broccolini","regular broccoli"],"notes": "cut into 2-inch pieces","isDisabled": false},
+      {"id": "i016d","name": "large eggs","quantity": 2,"unit": "item","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i016e","name": "dark soy sauce","quantity": 2,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i016f","name": "oyster sauce","quantity": 2,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i016g","name": "white sugar","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i016h","name": "neutral oil","quantity": 3,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s016a","stepNumber": 1,"instruction": "Soak noodles 30 minutes, drain. Mix soy sauce, oyster sauce, and sugar in a bowl.","timeMinutes": 30,"tip": null,"measurementAlternatives": [],"imageQuery": "soaked rice noodles and sauce mixture"},
+      {"id": "s016b","stepNumber": 2,"instruction": "Heat wok over the highest flame possible until smoking. Add 2 tbsp oil. Add chicken; cook without stirring 2 minutes until charred. Remove.","timeMinutes": 3,"tip": "The charred bits are the flavor — resist stirring.","measurementAlternatives": [],"imageQuery": "chicken charring in smoking hot wok"},
+      {"id": "s016c","stepNumber": 3,"instruction": "Add remaining oil and broccoli stems; cook 1 minute. Push to the side. Crack in eggs; scramble until just set, then fold in.","timeMinutes": 2,"tip": null,"measurementAlternatives": [],"imageQuery": "scrambling eggs in wok with vegetables"},
+      {"id": "s016d","stepNumber": 4,"instruction": "Add noodles and sauce. Toss over high heat 2 minutes until noodles absorb sauce and get slightly charred (wok hei). Return chicken and add broccoli leaves; toss 30 seconds.","timeMinutes": 3,"tip": null,"measurementAlternatives": [],"imageQuery": "pad see ew noodles tossing in wok with sauce"}
+    ],
+    "nutrition": {"caloriesPerServing": 580,"proteinGrams": 34.0,"carbsGrams": 68.0,"fatGrams": 18.0,"fiberGrams": 3.0,"vitamins": ["B6","K","C"],"minerals": ["Iron","Sodium","Potassium"],"antioxidants": [],"isKeto": false,"isVegetarian": false,"isVegan": false,"isGlutenFree": true,"isKosher": false,"isDairyFree": true,"isAntiInflammatory": false,"healthScore": 6},
+    "missingIngredients": []
+  },
+  {
+    "id": "e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b",
+    "name": "Simple Lentil Soup",
+    "description": "Hearty red lentil soup with cumin, coriander, and lemon — ready in 35 minutes, better the next day.",
+    "cuisine": "Middle Eastern",
+    "difficulty": "Easy",
+    "estimatedMinutes": 35,
+    "servings": 4,
+    "tags": ["Lunch", "Dinner", "Vegan", "Vegetarian", "Gluten-Free", "Dairy-Free", "Budget-Friendly", "Healthy", "Meal Prep", "Winter"],
+    "imageQuery": "red lentil soup with lemon cumin and fresh cilantro in bowl",
+    "estimatedCostUSD": 5.0,
+    "ingredients": [
+      {"id": "i017a","name": "red lentils","quantity": 1.5,"unit": "cup","isOptional": false,"substitutions": [],"notes": "rinsed","isDisabled": false},
+      {"id": "i017b","name": "yellow onion","quantity": 1,"unit": "item","isOptional": false,"substitutions": [],"notes": "diced","isDisabled": false},
+      {"id": "i017c","name": "garlic cloves","quantity": 3,"unit": "clove","isOptional": false,"substitutions": [],"notes": "minced","isDisabled": false},
+      {"id": "i017d","name": "canned diced tomatoes","quantity": 400,"unit": "g","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i017e","name": "vegetable broth","quantity": 1,"unit": "liter","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i017f","name": "ground cumin","quantity": 1.5,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i017g","name": "ground coriander","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i017h","name": "smoked paprika","quantity": 0.5,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i017i","name": "lemon","quantity": 1,"unit": "item","isOptional": false,"substitutions": [],"notes": "juiced","isDisabled": false},
+      {"id": "i017j","name": "extra-virgin olive oil","quantity": 2,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s017a","stepNumber": 1,"instruction": "Heat oil in a large pot over medium heat. Sauté onion until golden, 6 minutes. Add garlic, cumin, coriander, and paprika; cook 1 minute.","timeMinutes": 7,"tip": null,"measurementAlternatives": [],"imageQuery": "sauteing onion with spices in pot"},
+      {"id": "s017b","stepNumber": 2,"instruction": "Add lentils, tomatoes, and broth. Bring to a boil, then reduce heat and simmer uncovered 20 minutes, until lentils are completely soft.","timeMinutes": 22,"tip": null,"measurementAlternatives": [],"imageQuery": "lentil soup simmering in pot"},
+      {"id": "s017c","stepNumber": 3,"instruction": "Use an immersion blender to partially blend the soup for a creamy-yet-textured consistency. Or leave it fully chunky.","timeMinutes": 2,"tip": null,"measurementAlternatives": [],"imageQuery": "blending lentil soup with immersion blender"},
+      {"id": "s017d","stepNumber": 4,"instruction": "Stir in lemon juice, adjust seasoning. Serve with a drizzle of olive oil and warm pita.","timeMinutes": 1,"tip": null,"measurementAlternatives": [],"imageQuery": "red lentil soup bowl with olive oil drizzle and pita"}
+    ],
+    "nutrition": {"caloriesPerServing": 290,"proteinGrams": 16.0,"carbsGrams": 44.0,"fatGrams": 6.0,"fiberGrams": 14.0,"vitamins": ["B9","C","B1"],"minerals": ["Iron","Potassium","Magnesium"],"antioxidants": ["Polyphenols"],"isKeto": false,"isVegetarian": true,"isVegan": true,"isGlutenFree": true,"isKosher": false,"isDairyFree": true,"isAntiInflammatory": true,"healthScore": 10},
+    "missingIngredients": []
+  },
+  {
+    "id": "f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c",
+    "name": "Classic Banana Pancakes",
+    "description": "Fluffy buttermilk pancakes with mashed ripe banana folded in — no sugar needed, just maple syrup on top.",
+    "cuisine": "American",
+    "difficulty": "Easy",
+    "estimatedMinutes": 25,
+    "servings": 3,
+    "tags": ["Breakfast", "Vegetarian", "Family Friendly", "Comfort Food"],
+    "imageQuery": "fluffy banana pancakes stack with maple syrup and sliced banana",
+    "estimatedCostUSD": 5.0,
+    "ingredients": [
+      {"id": "i018a","name": "all-purpose flour","quantity": 1.5,"unit": "cup","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i018b","name": "ripe bananas","quantity": 2,"unit": "item","isOptional": false,"substitutions": [],"notes": "mashed","isDisabled": false},
+      {"id": "i018c","name": "buttermilk","quantity": 1,"unit": "cup","isOptional": false,"substitutions": ["milk + 1 tbsp lemon juice, rested 5 min"],"notes": null,"isDisabled": false},
+      {"id": "i018d","name": "large eggs","quantity": 2,"unit": "item","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i018e","name": "unsalted butter","quantity": 2,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": "melted, plus extra for cooking","isDisabled": false},
+      {"id": "i018f","name": "baking powder","quantity": 1.5,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i018g","name": "baking soda","quantity": 0.5,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i018h","name": "kosher salt","quantity": 0.25,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i018i","name": "vanilla extract","quantity": 1,"unit": "tsp","isOptional": true,"substitutions": [],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s018a","stepNumber": 1,"instruction": "Whisk flour, baking powder, baking soda, and salt in a large bowl. In another bowl, mash bananas thoroughly then mix in buttermilk, eggs, melted butter, and vanilla.","timeMinutes": 4,"tip": null,"measurementAlternatives": [],"imageQuery": "mashing bananas and mixing wet ingredients"},
+      {"id": "s018b","stepNumber": 2,"instruction": "Pour wet ingredients into dry. Fold with a spatula until just combined — lumps are fine, don't overmix.","timeMinutes": 1,"tip": "Overmixing develops gluten and makes flat, tough pancakes.","measurementAlternatives": [],"imageQuery": "folding pancake batter until just combined"},
+      {"id": "s018c","stepNumber": 3,"instruction": "Heat a griddle or nonstick pan over medium heat. Melt a little butter. Pour 1/4 cup batter per pancake. Cook until bubbles form and edges look dry, about 2 minutes. Flip and cook 1 more minute.","timeMinutes": 15,"tip": "Wait for the bubbles — that's how you know it's ready to flip.","measurementAlternatives": [],"imageQuery": "pancake on griddle with bubbles ready to flip"},
+      {"id": "s018d","stepNumber": 4,"instruction": "Serve immediately with maple syrup and extra sliced banana.","timeMinutes": 1,"tip": null,"measurementAlternatives": [],"imageQuery": "banana pancake stack with maple syrup"}
+    ],
+    "nutrition": {"caloriesPerServing": 420,"proteinGrams": 12.0,"carbsGrams": 70.0,"fatGrams": 11.0,"fiberGrams": 4.0,"vitamins": ["B6","B2","D"],"minerals": ["Potassium","Calcium","Phosphorus"],"antioxidants": [],"isKeto": false,"isVegetarian": true,"isVegan": false,"isGlutenFree": false,"isKosher": false,"isDairyFree": false,"isAntiInflammatory": false,"healthScore": 6},
+    "missingIngredients": []
+  },
+  {
+    "id": "a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d",
+    "name": "Beef and Broccoli Stir-Fry",
+    "description": "Tender flank steak and broccoli in a glossy oyster-ginger sauce — better than takeout, ready in 20 minutes.",
+    "cuisine": "Chinese",
+    "difficulty": "Medium",
+    "estimatedMinutes": 25,
+    "servings": 3,
+    "tags": ["Dinner", "Quick", "Dairy-Free"],
+    "imageQuery": "beef and broccoli stir-fry with glossy brown sauce over steamed rice",
+    "estimatedCostUSD": 16.0,
+    "ingredients": [
+      {"id": "i019a","name": "flank steak","quantity": 400,"unit": "g","isOptional": false,"substitutions": ["sirloin","skirt steak"],"notes": "thinly sliced against the grain","isDisabled": false},
+      {"id": "i019b","name": "broccoli florets","quantity": 300,"unit": "g","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i019c","name": "oyster sauce","quantity": 3,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i019d","name": "soy sauce","quantity": 2,"unit": "tbsp","isOptional": false,"substitutions": ["tamari"],"notes": null,"isDisabled": false},
+      {"id": "i019e","name": "sesame oil","quantity": 1,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i019f","name": "cornstarch","quantity": 2,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": "divided","isDisabled": false},
+      {"id": "i019g","name": "fresh ginger","quantity": 1,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": "grated","isDisabled": false},
+      {"id": "i019h","name": "garlic cloves","quantity": 3,"unit": "clove","isOptional": false,"substitutions": [],"notes": "minced","isDisabled": false},
+      {"id": "i019i","name": "neutral oil","quantity": 3,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i019j","name": "chicken broth","quantity": 0.5,"unit": "cup","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s019a","stepNumber": 1,"instruction": "Toss sliced beef with 1 tbsp soy sauce and 1 tbsp cornstarch. Marinate 10 minutes. Mix remaining soy sauce, oyster sauce, broth, remaining cornstarch, and sesame oil in a bowl.","timeMinutes": 10,"tip": null,"measurementAlternatives": [],"imageQuery": "marinating sliced beef with cornstarch and soy"},
+      {"id": "s019b","stepNumber": 2,"instruction": "Blanch broccoli in boiling salted water 2 minutes; drain.","timeMinutes": 3,"tip": null,"measurementAlternatives": [],"imageQuery": "blanching broccoli florets in boiling water"},
+      {"id": "s019c","stepNumber": 3,"instruction": "Heat wok over high heat until smoking. Add 2 tbsp oil, then beef in a single layer. Cook undisturbed 1 minute, toss, cook 30 seconds more. Remove.","timeMinutes": 2,"tip": null,"measurementAlternatives": [],"imageQuery": "beef searing in hot wok"},
+      {"id": "s019d","stepNumber": 4,"instruction": "Add remaining oil, garlic, and ginger; stir 30 seconds. Add broccoli. Pour in sauce and toss until sauce thickens and coats everything, 1–2 minutes. Return beef and toss. Serve over rice.","timeMinutes": 3,"tip": null,"measurementAlternatives": [],"imageQuery": "beef and broccoli in glossy sauce in wok"}
+    ],
+    "nutrition": {"caloriesPerServing": 380,"proteinGrams": 32.0,"carbsGrams": 16.0,"fatGrams": 20.0,"fiberGrams": 4.0,"vitamins": ["C","K","B12"],"minerals": ["Iron","Zinc","Potassium"],"antioxidants": ["Sulforaphane"],"isKeto": false,"isVegetarian": false,"isVegan": false,"isGlutenFree": false,"isKosher": false,"isDairyFree": true,"isAntiInflammatory": true,"healthScore": 7},
+    "missingIngredients": []
+  },
+  {
+    "id": "b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e",
+    "name": "Caprese Salad with Balsamic Glaze",
+    "description": "Fresh mozzarella, ripe tomatoes, and fragrant basil with a sweet-tart balsamic reduction.",
+    "cuisine": "Italian",
+    "difficulty": "Easy",
+    "estimatedMinutes": 10,
+    "servings": 2,
+    "tags": ["Lunch", "Vegetarian", "No-Cook", "Summer", "Gluten-Free", "Quick"],
+    "imageQuery": "caprese salad fresh mozzarella heirloom tomatoes basil balsamic glaze",
+    "estimatedCostUSD": 10.0,
+    "ingredients": [
+      {"id": "i020a","name": "fresh mozzarella ball","quantity": 225,"unit": "g","isOptional": false,"substitutions": ["burrata"],"notes": "sliced 1/4 inch thick","isDisabled": false},
+      {"id": "i020b","name": "ripe heirloom tomatoes","quantity": 2,"unit": "item","isOptional": false,"substitutions": ["roma tomatoes"],"notes": "sliced 1/4 inch thick","isDisabled": false},
+      {"id": "i020c","name": "fresh basil leaves","quantity": 0.5,"unit": "bunch","isOptional": false,"substitutions": [],"notes": "large leaves left whole","isDisabled": false},
+      {"id": "i020d","name": "extra-virgin olive oil","quantity": 2,"unit": "tbsp","isOptional": false,"substitutions": [],"notes": "best quality available","isDisabled": false},
+      {"id": "i020e","name": "balsamic vinegar","quantity": 3,"unit": "tbsp","isOptional": false,"substitutions": ["balsamic glaze"],"notes": null,"isDisabled": false},
+      {"id": "i020f","name": "flaky sea salt","quantity": 0.5,"unit": "tsp","isOptional": false,"substitutions": [],"notes": null,"isDisabled": false},
+      {"id": "i020g","name": "black pepper","quantity": 0.25,"unit": "tsp","isOptional": false,"substitutions": [],"notes": "freshly cracked","isDisabled": false}
+    ],
+    "steps": [
+      {"id": "s020a","stepNumber": 1,"instruction": "Reduce balsamic vinegar in a small saucepan over medium heat until thickened to a syrup, about 5 minutes. Cool slightly. (Skip if using store-bought glaze.)","timeMinutes": 5,"tip": "Watch carefully — it burns fast. Pull it early; it thickens as it cools.","measurementAlternatives": [],"imageQuery": "balsamic reduction in small saucepan"},
+      {"id": "s020b","stepNumber": 2,"instruction": "Arrange alternating slices of tomato and mozzarella on a plate, tucking basil leaves between each slice.","timeMinutes": 3,"tip": "Use room-temperature cheese — cold mozzarella has less flavor.","measurementAlternatives": [],"imageQuery": "arranging tomato mozzarella and basil in overlapping pattern"},
+      {"id": "s020c","stepNumber": 3,"instruction": "Drizzle with olive oil and balsamic glaze. Finish with flaky salt and cracked pepper. Serve immediately.","timeMinutes": 1,"tip": null,"measurementAlternatives": [],"imageQuery": "caprese salad with balsamic glaze drizzle and flaky salt"}
+    ],
+    "nutrition": {"caloriesPerServing": 320,"proteinGrams": 16.0,"carbsGrams": 12.0,"fatGrams": 24.0,"fiberGrams": 2.0,"vitamins": ["A","C","K","B12"],"minerals": ["Calcium","Phosphorus"],"antioxidants": ["Lycopene"],"isKeto": true,"isVegetarian": true,"isVegan": false,"isGlutenFree": true,"isKosher": false,"isDairyFree": false,"isAntiInflammatory": true,"healthScore": 8},
+    "missingIngredients": []
+  }
+]
