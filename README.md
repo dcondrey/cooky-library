@@ -1,7 +1,7 @@
 <!-- repo-header:start -->
 <h3 align="center">Cooky Recipe Library</h3>
 
-<p align="center"><strong>Project documentation and resources for Cooky Library.</strong></p>
+<p align="center"><strong>Shared recipe library for the Cooky iOS app: a single <code>recipes.json</code> whose schema matches the app's Swift model exactly.</strong></p>
 
 <p align="center">
   <a href=".bestpractices.json"><img src="https://img.shields.io/badge/best%20practices-evidence%20reviewed-6a4c93?style=flat-square&labelColor=20232a" alt="Best Practices Evidence"></a>
